@@ -35,7 +35,7 @@ jobs:
       run: |
         python read.py
         
-    -
+
     - name: check for changes
       run: git status
     - name: stage changed files
