@@ -1,3 +1,3 @@
-with open("open.txt", "w") as file:
+with open("open.txt", "a") as file:
     file.write("valami")
     file.close()
