@@ -38,6 +38,7 @@ jobs:
 
     - name: check for changes
       run: git config --global user.email "jkozma@freestart.hu"
+           git config --global user.name "jkozma78"
     - name: stage changed files
       run: git add .
     - name: commit changed files
